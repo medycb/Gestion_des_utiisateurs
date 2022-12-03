@@ -2,22 +2,10 @@
 
 Étape 2 -Importer la base de données envoyée ci-dessus dans mysql
 
-Étape 3 - Configurer la base de données avec l'application
-
-Configurez la base de données avecl 'application laravel téléchargée. Vous devez donc trouver le fichier .env et les détails de la base de données de configuration comme suit :
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=gestion_utilisateur
-DB_USERNAME=***********
-DB_PASSWORD=*************
-
-
-
-Étape 4- Exécutez le serveur de développement:
+Étape 3- Exécutez le serveur de développement:
 Dans la dernière étape, ouvrez une invite de commande et exécutez la commande suivante pour démarrer le serveur de développement :
+
 php artisan serve
 
-Ouvrez ensuite votre navigateur et cliquez sur l'URL suivante :
+Étape 4- Ouvrez ensuite votre navigateur et cliquez sur l'URL suivante :
 http://127.0.0.1:8000/users
